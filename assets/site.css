@@ -133,20 +133,12 @@ html[lang="ja"] .pack-copy { word-break: normal; overflow-wrap: anywhere; }
 .gradient-text { color: transparent; background: linear-gradient(105deg, #fff 5%, #9894ff 48%, #ff8e7d 95%); -webkit-background-clip: text; background-clip: text; }
 .hero-lede { max-width: 610px; margin: 32px 0 0; color: rgba(255,255,255,.68); font-size: clamp(17px, 1.55vw, 21px); line-height: 1.65; word-break: keep-all; }
 .hero-actions { margin-top: 38px; display: flex; align-items: stretch; flex-wrap: wrap; gap: 12px; }
-.app-store-badge-link { display: inline-flex; align-items: center; min-height: 58px; border-radius: 12px; transition: transform .25s ease, filter .25s ease; }
-.app-store-badge-link:hover { transform: translateY(-3px); filter: brightness(1.08); }
+.app-store-badge-link { display: inline-block; line-height: 0; }
 .app-store-badge { width: 175px; height: auto; }
 .app-store-badge-link.large .app-store-badge { width: min(230px, 72vw); }
 .button { min-height: 58px; padding: 0 22px; border: 1px solid rgba(255,255,255,.17); border-radius: 18px; display: inline-flex; align-items: center; justify-content: center; gap: 13px; font-size: 13px; font-weight: 760; transition: transform .25s ease, background .25s ease, border-color .25s ease; }
 .button:hover { transform: translateY(-3px); }
-.button-primary { min-width: 220px; color: #08090b; background: #fff; border-color: #fff; justify-content: flex-start; }
 .button-secondary { color: #fff; background: rgba(255,255,255,.06); }
-.button small, .button strong { display: block; }
-.button small { margin-bottom: 1px; font-size: 9px; font-weight: 650; opacity: .62; }
-.button strong { font-size: 13px; }
-.button.disabled { opacity: .72; cursor: default; }
-.button.disabled:hover { transform: none; }
-.apple-mark { font-size: 25px; line-height: 1; transform: scaleX(.78); }
 .trust-row { margin: 34px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px; color: rgba(255,255,255,.56); font-size: 11px; font-weight: 700; letter-spacing: .02em; }
 .trust-row li { display: flex; align-items: center; gap: 7px; }
 .trust-row li > span:first-child { color: #fff; font-size: 16px; }
