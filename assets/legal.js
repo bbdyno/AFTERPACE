@@ -8,7 +8,6 @@ const LEGAL_COPY = {
     privacy: "개인정보처리방침",
     terms: "이용약관",
     support: "지원",
-    issues: "GitHub Issues",
     pages: {
       privacy: { title: "개인정보처리방침 — AFTERPACE", description: "AFTERPACE가 HealthKit, 사진, 경로와 프로젝트를 기기에서 처리하는 방법을 안내합니다." },
       terms: { title: "이용약관 — AFTERPACE", description: "AFTERPACE 앱 사용, 사용자 콘텐츠, 개인정보, 구매와 책임 범위를 설명하는 이용약관입니다." },
@@ -22,7 +21,6 @@ const LEGAL_COPY = {
     privacy: "Privacy Policy",
     terms: "Terms of Use",
     support: "Support",
-    issues: "GitHub Issues",
     pages: {
       privacy: { title: "Privacy Policy — AFTERPACE", description: "How AFTERPACE handles HealthKit, photos, routes, and projects on your device." },
       terms: { title: "Terms of Use — AFTERPACE", description: "Terms covering use of AFTERPACE, user content, privacy, purchases, and responsibility." },
@@ -36,7 +34,6 @@ const LEGAL_COPY = {
     privacy: "プライバシーポリシー",
     terms: "利用規約",
     support: "サポート",
-    issues: "GitHub Issues",
     pages: {
       privacy: { title: "プライバシーポリシー — AFTERPACE", description: "AFTERPACEがHealthKit、写真、ルート、プロジェクトをデバイス上で扱う方法をご案内します。" },
       terms: { title: "利用規約 — AFTERPACE", description: "AFTERPACEの利用、ユーザーコンテンツ、プライバシー、購入、責任範囲に関する規約です。" },

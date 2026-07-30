@@ -25,8 +25,8 @@
   <link rel="icon" href="assets/images/app-icon.png">
   <link rel="apple-touch-icon" href="assets/images/app-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <link rel="stylesheet" href="assets/site.css?v=20260729-2">
-  <script src="assets/site.js?v=20260729-2" defer></script>
+  <link rel="stylesheet" href="assets/site.css?v=20260730-3">
+  <script src="assets/site.js?v=20260730-3" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-copy="skip">본문으로 건너뛰기</a>
@@ -48,7 +48,7 @@
         <button type="button" data-language="en" aria-pressed="false">EN</button>
         <button type="button" data-language="ja" aria-pressed="false">JA</button>
       </div>
-      <a class="store-pill store-target" href="#availability" data-copy="storeShort">App Store 준비 중</a>
+      <a class="store-pill store-target" href="https://apps.apple.com/app/id6795422558" data-copy="storeShort">App Store</a>
     </div>
   </header>
 
@@ -65,9 +65,8 @@
         </h1>
         <p class="hero-lede" data-copy="heroBody">운동과 사진을 고르세요. AFTERPACE가 기록을 읽고, 여섯 개의 아트 디렉션과 Story·Feed·Square를 한 번에 완성합니다.</p>
         <div class="hero-actions">
-          <a class="button button-primary store-target" href="#availability">
-            <span class="apple-mark" aria-hidden="true">●</span>
-            <span><small data-copy="downloadOn">Download on the</small><strong data-copy="appStoreSoon">App Store · 출시 준비 중</strong></span>
+          <a class="app-store-badge-link store-target" href="https://apps.apple.com/app/id6795422558" aria-label="App Store에서 AFTERPACE 보기" data-copy-aria="appStoreAria">
+            <img class="app-store-badge" src="assets/images/app-store/download-ko.svg" alt="App Store에서 다운로드" data-store-badge>
           </a>
           <a class="button button-secondary" href="#directions"><span data-copy="seeHow">어떻게 완성되는지 보기</span><span aria-hidden="true">↓</span></a>
         </div>
@@ -81,17 +80,7 @@
       <div class="hero-visual reveal" data-parallax>
         <div class="halo" aria-hidden="true"></div>
         <div class="phone phone-main">
-          <div class="phone-island" aria-hidden="true"></div>
-          <div class="workspace-screen" role="img" aria-label="AFTERPACE Quick Edit 워크스페이스" data-copy-aria="workspaceAria">
-            <div class="workspace-top"><span>QUICK EDIT</span><b>•••</b></div>
-            <div class="workspace-canvas">
-              <span>EVENING RUN</span>
-              <div class="workspace-metric"><strong>10.03</strong><small>KM</small></div>
-              <svg viewBox="0 0 240 180" aria-hidden="true"><path d="M25 145 C47 118 56 84 91 91 S129 136 149 91 S183 38 215 32"/><circle cx="25" cy="145" r="5"/><circle cx="215" cy="32" r="5"/></svg>
-              <div class="workspace-stats"><span>52:14</span><span>5:12 /KM</span><span>148 BPM</span></div>
-            </div>
-            <div class="workspace-tools"><span>PHOTO</span><span>DATA</span><span>ROUTE</span><span>TYPE</span></div>
-          </div>
+          <img class="app-screen-image" src="assets/images/screenshots/app-quick-edit-device.png" alt="실제 iPhone에서 실행 중인 AFTERPACE Quick Edit" data-copy-alt="quickScreenAlt">
         </div>
         <div class="floating-card card-distance" aria-hidden="true"><small>EVENING RUN</small><strong>10.03 KM</strong><span>52:14 · 5:12/KM</span></div>
         <div class="floating-card card-ready" aria-hidden="true"><span class="ready-check">✓</span><strong>3 EXPORTS</strong><small>9:16 · 4:5 · 1:1</small></div>
@@ -128,13 +117,10 @@
         <h2 data-copy="directionsTitle">스티커를 고르기 전에,<br>먼저 분위기를 고르세요.</h2>
         <p data-copy="directionsBody">같은 운동과 사진도 완전히 다른 여섯 장면이 됩니다. 단순한 색상 변형이 아니라 레이아웃, 사진 비중, 기록의 위계와 여백이 달라집니다.</p>
       </div>
-      <div class="direction-rail reveal" aria-label="여섯 가지 아트 디렉션" data-copy-aria="directionsAria">
-        <figure class="direction-card"><div class="direction-preview preview-editorial" aria-hidden="true"><small>EVENING / 07.29</small><strong>10.03</strong><span>KM</span><i></i></div><figcaption><strong>Editorial</strong><span data-copy="dir1">사진 중심의 절제된 편집</span></figcaption></figure>
-        <figure class="direction-card"><div class="direction-preview preview-route" aria-hidden="true"><small>ROUTE 01</small><svg viewBox="0 0 180 260"><path d="M24 223 C42 187 38 143 78 151 S121 196 133 133 S137 57 159 34"/><circle cx="24" cy="223" r="5"/><circle cx="159" cy="34" r="5"/></svg><strong>52:14</strong></div><figcaption><strong>Route Sculpture</strong><span data-copy="dir2">경로가 만드는 조형</span></figcaption></figure>
-        <figure class="direction-card"><div class="direction-preview preview-bold" aria-hidden="true"><small>AFTER</small><strong>10<br>.03</strong><span>PACE 5:12</span></div><figcaption><strong>Bold Type</strong><span data-copy="dir3">기록을 선언하는 타이포</span></figcaption></figure>
-        <figure class="direction-card"><div class="direction-preview preview-receipt" aria-hidden="true"><small>TRAINING LOG</small><strong>RUN / 029</strong><span>DISTANCE&nbsp;&nbsp;10.03 KM<br>TIME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;52:14<br>AVG PACE&nbsp;&nbsp;5:12</span><i>──────────</i></div><figcaption><strong>Analog Receipt</strong><span data-copy="dir4">훈련을 수집하는 로그</span></figcaption></figure>
-        <figure class="direction-card"><div class="direction-preview preview-diary" aria-hidden="true"><small>JULY 29</small><strong>evening<br>pace</strong><span>10.03 KM · 52:14</span><i></i></div><figcaption><strong>Soft Diary</strong><span data-copy="dir5">감정이 남는 부드러운 기록</span></figcaption></figure>
-        <figure class="direction-card"><div class="direction-preview preview-motion" aria-hidden="true"><small>MOTION / 01</small><div class="motion-shape"></div><strong>10.03 KM</strong><span>KEEP MOVING</span></div><figcaption><strong>Motion Cutout</strong><span data-copy="dir6">피사체와 기록의 깊이</span></figcaption></figure>
+      <div class="actual-screen-gallery reveal" aria-label="실제 AFTERPACE 앱 화면" data-copy-aria="screenGalleryAria">
+        <figure class="actual-screen-card"><img src="assets/images/screenshots/app-home.png" alt="AFTERPACE 실제 홈 화면" data-copy-alt="homeScreenAlt"><figcaption data-copy="homeScreenCaption">최근 작업과 새 작업</figcaption></figure>
+        <figure class="actual-screen-card featured"><img src="assets/images/screenshots/app-directions.png" alt="AFTERPACE 실제 아트 디렉션 선택 화면" data-copy-alt="directionsScreenAlt"><figcaption data-copy="directionsScreenCaption">6개의 구도 중 선택</figcaption></figure>
+        <figure class="actual-screen-card"><img src="assets/images/screenshots/app-quick-edit.png" alt="AFTERPACE 실제 Quick Edit 화면" data-copy-alt="quickScreenAlt"><figcaption data-copy="quickScreenCaption">결과를 바로 편집</figcaption></figure>
       </div>
     </section>
 
@@ -154,7 +140,7 @@
         </article>
         <article class="feature feature-quick reveal">
           <div class="feature-copy"><span class="feature-number">03</span><h3 data-copy="quickTitle">대부분은 Quick Edit로 충분하게.</h3><p data-copy="quickBody">사진, 기록, 경로, 문구와 라이브 스티커를 탭 몇 번으로 바꿉니다. 피사체 뒤로 보내는 깊이 효과도 한 동작입니다.</p></div>
-          <div class="mini-phone" aria-hidden="true"><div class="depth-canvas"><small>SUBJECT DEPTH</small><div class="depth-orbit"><i></i><b></b></div><strong>10.03 KM</strong><span>BEHIND / FRONT</span></div></div>
+          <img class="feature-app-screen" src="assets/images/screenshots/app-quick-edit-device.png" alt="실제 iPhone의 피사체 깊이 편집 화면" data-copy-alt="depthScreenAlt">
         </article>
         <article class="feature feature-studio reveal">
           <div class="feature-copy"><span class="feature-number">04</span><h3 data-copy="studioTitle">Studio는 마지막 1%를 위해.</h3><p data-copy="studioBody">내용·모양·배치, 세 범위만 제공합니다. Lock은 스티커 전체를 실제로 보호하고 언제나 해제할 수 있습니다.</p></div>
@@ -177,7 +163,7 @@
 
     <section class="pack section-dark">
       <div class="pack-visual reveal">
-        <div class="phone phone-pack" aria-hidden="true"><div class="pack-screen"><small>SOCIAL PACK</small><strong>3 EXPORTS</strong><div class="pack-ratios"><span><i></i><b>9:16</b></span><span><i></i><b>4:5</b></span><span><i></i><b>1:1</b></span></div><div class="pack-ready">READY TO SHARE</div></div></div>
+        <div class="phone phone-pack"><img class="app-screen-image" src="assets/images/screenshots/app-social-pack.png" alt="AFTERPACE 실제 Social Pack 내보내기 화면" data-copy-alt="socialPackScreenAlt"></div>
       </div>
       <div class="pack-copy reveal">
         <p class="eyebrow" data-copy="packEyebrow">ONE PROJECT · THREE CANVASES</p>
@@ -207,10 +193,11 @@
       <img class="availability-icon reveal" src="assets/images/app-icon.png" alt="AFTERPACE 앱 아이콘" data-copy-alt="appIconAlt">
       <p class="eyebrow reveal" data-copy="availabilityEyebrow">COMING TO iPHONE & iPAD</p>
       <h2 class="reveal" data-copy="availabilityTitle">다음 운동은,<br>남기고 싶은 장면이 됩니다.</h2>
-      <p class="reveal" data-copy="availabilityBody">App Store 공개 페이지를 준비하고 있습니다. 출시 전까지 제품 소식과 지원은 GitHub에서 확인할 수 있습니다.</p>
+      <p class="reveal" data-copy="availabilityBody">App Store 페이지가 공개되면 아래 버튼에서 바로 확인할 수 있습니다.</p>
       <div class="availability-actions reveal">
-        <span class="button button-primary disabled" role="status"><span class="apple-mark" aria-hidden="true">●</span><span><small data-copy="appStoreLabel">App Store</small><strong data-copy="comingSoon">출시 준비 중</strong></span></span>
-        <a class="button button-secondary light" href="https://github.com/bbdyno/AFTERPACE" target="_blank" rel="noreferrer"><span data-copy="viewGithub">GitHub에서 보기</span><span aria-hidden="true">↗</span></a>
+        <a class="app-store-badge-link store-target large" href="https://apps.apple.com/app/id6795422558" aria-label="App Store에서 AFTERPACE 보기" data-copy-aria="appStoreAria">
+          <img class="app-store-badge" src="assets/images/app-store/download-ko.svg" alt="App Store에서 다운로드" data-store-badge>
+        </a>
       </div>
     </section>
   </main>
