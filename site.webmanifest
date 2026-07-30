@@ -1,0 +1,20 @@
+{
+  "name": "AFTERPACE — Workout to Art",
+  "short_name": "AFTERPACE",
+  "id": "/AFTERPACE/",
+  "lang": "ko",
+  "description": "Turn one workout and the photos around it into share-ready visual art.",
+  "start_url": "/AFTERPACE/",
+  "scope": "/AFTERPACE/",
+  "display": "standalone",
+  "background_color": "#090a0d",
+  "theme_color": "#090a0d",
+  "icons": [
+    {
+      "src": "assets/images/app-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
